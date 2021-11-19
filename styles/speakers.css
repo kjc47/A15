@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto 0 auto;
+    border: 3px  #931420 ;
+    border-style: solid;
+    background-color: #fffded;
+}
+
+blockquote{
+    padding-right: 2em;
+    padding-left: 2em;
+    font-style: italic;
+}
+ul{
+    padding-bottom: .25em;
+    padding-left: 1.25em;
+}
+
+/*li{
+    padding-bottom: .35em;
+}
+*/
+
+/* the styles for the header */
+header{
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    border-bottom: solid #931420;
+    background:
+            linear-gradient(30deg,transparent 0%,#f6bb73,transparent 30%,#f6bb73,transparent 50%, white, transparent 80%, #f6bb73, transparent 100%, #f6bb73);
+    /*linear-gradient(30deg,transparent 30%,#f6bb73);
+    linear-gradient(30deg,transparent 50%, white);
+    linear-gradient(30deg,transparent 80%, #f6bb73);
+    linear-gradient(30deg,transparent 100%, #f6bb73);*/
+
+
+
+}
+/*img{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+ */
+img{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+header h2{
+    font-size: 170%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+header h3{
+    font-size: 125%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+/* the styles for the footer */
+footer{
+    clear:both;
+    text-align: center;
+    border-top: solid #931420;
+    background-color: #931420;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.shadow{
+    text-shadow: 2px 2px #800000 ;
+}
+
+
+
+#nav_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+#nav_menu ul li{
+    float: left;
+}
+
+#nav_menu ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu a.current{
+    color: yellow;
+}
+
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* the styles for the section*/
+section {
+    width: 525px;
+    float: right;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: .5em;
+}
+main {
+    clear: left;
+}
+
+a:hover{
+    font-style: italic;
+}
+a:focus{
+    font-style: italic;
+}
+/* the styles for the aside*/
+
+aside{
+    width: 215px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main h1{
+    /*padding-top: .3em;
+    padding-bottom: .3em;
+    font-size: 150%;
+    border-top: solid #931420;
+    border-bottom: solid #931420*/
+    font-size: 150%;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #800000;
+}
+main h2{
+    font-size: 130%;
+    /*color: #800000;*/
+    padding-top: 0.5em;
+    padding-bottom: .25em;
+}
+section h1{
+    font-size: 150%;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #800000;
+}
+section h2{
+    font-size: 150%;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+main h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+main img{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+}
+article{
+    padding-top: .5em;
+    padding-bottom: .5em;
+
+}
+article img{
+    float: right;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+
+    border-image-width: 1px;
+    border-color: black;
+
+    padding-left: 0;
+    padding-top: 0;
+}
+article h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+
+aside img{
+    padding-left: 0;
+    padding-top: 0;
+}
+aside h2{
+    font-size: 130%;
+    color: #800000;
+    padding-top: 0.5em;
+    padding-bottom: .25em;
+}
+
+
+/* the styles for the elements */
